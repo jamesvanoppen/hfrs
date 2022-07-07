@@ -1,0 +1,13 @@
+Package: HFRS
+Title: Hospital Frailty Risk Scores from ICD-10 codes
+Version: 0.0.1.0000
+Authors@R: 
+    person("James", "van Oppen", , "james.vanoppen@doctors.org.uk", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-2570-7112"))
+Description: Calculates Hospital Frailty Risk Scores from ICD-10 codes. Categorises HFRS risk as Low, Intermediate, or High. This package uses points data from supplementary appendices published by Gilbert T, et al. Lancet 2018; http://dx.doi.org/10.1016/S0140-6736(18)30668-8.
+License: use_gpl3_license()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Depends: 
+    R (>= 2.10)
